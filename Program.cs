@@ -13,6 +13,18 @@ namespace bookk
             this.author.author = author;
             this.content.content = content;
         }
+        public void showTitle()
+        {
+            title.Show();
+        }
+        public void showAuthor()
+        {
+            author.Show();
+        }
+        public void showContent()
+        {
+            content.Show();
+        }
     }
     class Title
     {
@@ -43,7 +55,22 @@ namespace bookk
     {
         static void Main(string[] args)
         {
-            
+            string[] author = {"Mark Tven", "Jorj Owell", "Anna Todd", "Roberto Keosaky"};
+            string[] title = {"Tom Soyerning", "1984", "After", "Rich dad poor dad"};
+            string[] content = {"Fiction", "Fantasy", "Romance", "Business & Finance"};
+            for (int  i=0; i<author.Length; i++)
+            {
+                Book book = new Book(author[i], title[i], content[i]);
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine($"Book №:{i+1}:");
+                Console.ForegroundColor = ConsoleColor.Red;
+                book.showAuthor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                book.showContent();
+                Console.ForegroundColor = ConsoleColor.Green;
+                book.showTitle();
+            }
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
