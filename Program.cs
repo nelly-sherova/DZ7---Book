@@ -16,15 +16,28 @@ namespace bookk
     }
     class Title
     {
-        private string title { get; set; }
+        public string title { get; set; }
+        public void Show()
+        {
+            Console.WriteLine($"Title: {title}");
+        }
     }
     class Author
     {
-        private string author { get; set; }
+        public string author { get; set; }
+        public void Show()
+        {
+            Console.WriteLine($"Author: {author}");
+        }
     }
     class Content 
     {
-        private string content { get; set; }
+        public string content { get; set; }
+        public void Show()
+        {
+            Console.WriteLine($"Content: {content}");
+        }
+        
     }
     class Program
     {

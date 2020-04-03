@@ -1,0 +1,13 @@
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.exe
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.deps.json
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.runtimeconfig.json
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.dll
+C:\Users\ASUS\Desktop\bookk\bin\Debug\netcoreapp3.1\bookk.pdb
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.dll
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.pdb
+C:\Users\ASUS\Desktop\bookk\obj\Debug\netcoreapp3.1\bookk.genruntimeconfig.cache
