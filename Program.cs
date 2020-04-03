@@ -60,15 +60,15 @@ namespace bookk
             string[] content = {"Fiction", "Fantasy", "Romance", "Business & Finance"};
             for (int  i=0; i<author.Length; i++)
             {
-                Book book = new Book(author[i], title[i], content[i]);
+                Book book = new Book(title[i], author[i], content[i]);
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"Book №:{i+1}:");
                 Console.ForegroundColor = ConsoleColor.Red;
-                book.showAuthor();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                book.showContent();
-                Console.ForegroundColor = ConsoleColor.Green;
                 book.showTitle();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                book.showAuthor();
+                Console.ForegroundColor = ConsoleColor.Green;
+                book.showContent();
             }
             Console.ForegroundColor = ConsoleColor.White;
         }
